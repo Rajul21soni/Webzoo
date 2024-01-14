@@ -1,0 +1,15 @@
+/* About.css */
+.icon-bg {
+    background-color: #FFA500;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+    transition: background-color 0.3s ease;
+}
+
+.bg-icon {
+    background-color: #040e18;
+     
+}
