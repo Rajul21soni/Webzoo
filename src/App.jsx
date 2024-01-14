@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import DefaultNavbar from "./Components/defaultNavbar";
+import DefaultNavbar from "./Components/DefaultNavbar";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Qaulity from "./Pages/Qaulity";
