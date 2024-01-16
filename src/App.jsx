@@ -10,7 +10,7 @@ const App = () => {
 
   useEffect(() => {
     // Apply VANTA.GLOBE effect to the wrapper div
-    const vantaEffect = VANTA.GLOBE({
+    const vantaEffect = VANTA.WAVES({
       el: "#vanta-wrapper", // Use the wrapper div with id="vanta-wrapper"
       mouseControls: true,
       touchControls: true,
@@ -19,8 +19,9 @@ const App = () => {
       minWidth: 200.0,
       scale: 1.0,
       scaleMobile: 1.0,
-      backgroundColor: 0x180404,
-      color: 0xff8e3f,
+      backgroundColor: 0x884000,
+      color: 0x884000,
+      zoom: 0.65
     });
 
     // Cleanup the effect when the component unmounts

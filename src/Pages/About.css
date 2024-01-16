@@ -13,3 +13,26 @@
     background-color: #040e18;
      
 }
+#about{
+    background-color: rgba(0, 0, 0, 0.612);
+    backdrop-filter: blur(2px);
+}
+#quality{
+    background-color: rgba(0, 0, 0, 0.612);
+    backdrop-filter: blur(2px);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#quality{
+    background-color: rgba(0, 0, 0, 0.612);
+    backdrop-filter: blur(2px);
+    padding: 20px;
+    margin-top: 20px;
+}
+#work{
+    background-color: rgba(0, 0, 0, 0.612);
+    backdrop-filter: blur(2px);
+    padding: 20px;
+    margin-top: 20px;
+}

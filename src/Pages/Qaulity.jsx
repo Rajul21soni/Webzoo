@@ -14,7 +14,7 @@ import { CiMobile3 } from "react-icons/ci";
 
 const Qaulity = () => {
   return (
-    <div id="quality" className="container mx-auto">
+    <div id="quality" className="container border rounded-xl mx-auto">
       <h1 className="text-primary text-center text-4xl font-bold font-plus-jakarta-sans">
         Our Qaulity
       </h1>
@@ -33,7 +33,7 @@ const Qaulity = () => {
         </div>
         <div data-aos="flip-left" data-aos-duration="1500" className="border rounded-lg flex flex-col items-center mt-2 hover:border-primary hover:scale-95 hover:cursor-pointer transition duration-[0.3s] ease-in-out justify-center p-5 md:p-10 w-full ">
           <LuBarChart3 className="border rounded-full p-2 text-3xl md:text-5xl text-white" />
-          <p className="text-white text-lg md:text-xl mt-2 md:mt-3">
+          <p className="text-white text-center text-lg md:text-xl mt-2 md:mt-3">
             Time Series Modeling
           </p>
         </div>
@@ -45,7 +45,7 @@ const Qaulity = () => {
         </div>
         <div data-aos="flip-left" data-aos-duration="2500" className="border rounded-lg flex flex-col items-center mt-2 hover:border-primary hover:scale-95 hover:cursor-pointer transition duration-[0.3s] ease-in-out justify-center p-5 md:p-10 w-full ">
           <CgWebsite className="border rounded-full p-2 text-3xl md:text-5xl text-white" />
-          <p className="text-white text-lg md:text-xl mt-2 md:mt-3">
+          <p className="text-white text-center text-lg md:text-xl mt-2 md:mt-3">
             Text Classification
           </p>
         </div>

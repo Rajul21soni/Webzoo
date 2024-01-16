@@ -29,7 +29,7 @@ const DefaultNavbar = () => {
       position: 'fixed',
       width: '36px',
       height: '30px',
-      left: '36px',
+      right: '36px',  // Set 'right' property to move the button to the right
       top: '36px'
     },
     bmBurgerBars: {
@@ -52,7 +52,8 @@ const DefaultNavbar = () => {
     bmMenu: {
       background: '#373a47',
       padding: '2.5em 1.5em 0',
-      fontSize: '1.15em'
+      fontSize: '1.15em',
+      right:0
     },
     bmMorphShape: {
       fill: '#373a47'
@@ -77,6 +78,7 @@ const DefaultNavbar = () => {
         pageWrapId={"page-wrap"}
         outerContainerId={"outer-container"}
         itemListElement="div"
+        right
       >
         <div
           style={{

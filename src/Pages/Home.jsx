@@ -29,7 +29,7 @@ const Home = () => {
       <h1 data-aos="fade-up" data-aos-duration="500" className='text-white text-4xl md:text-6xl mx-4 md:mx-8 mb-3 md:mb-5 font-bold w-full text-center font-plus-jakarta-sans'>
         TORQUEVISION LABS
       </h1>
-      <p data-aos="fade-up" data-aos-duration="1000" className='text-primary text-lg md:text-2xl mx-4 md:mx-8 mb-3 md:mb-5 font-semibold font-plus-jakarta-sans'>
+      <p data-aos="fade-up" data-aos-duration="1000" className='text-white text-lg md:text-2xl mx-4 md:mx-8 mb-3 md:mb-5 font-semibold font-plus-jakarta-sans'>
         DETERMINED AI EXPERT
       </p>
       <Link
@@ -40,7 +40,7 @@ const Home = () => {
         duration={500}
         onSetActive={handleSetActive}
         data-aos="fade-up" data-aos-duration="1500"
-        className='p-3 md:p-4 hover:cursor-pointer w-40 sm:w-48 text-center font-plus-jakarta-sans text-white bg-primary rounded transition duration-500 ease-in-out transform hover:bg-white hover:text-black hover:scale-90'
+        className='p-3 md:p-4 hover:cursor-pointer w-40 sm:w-48 text-center bg-white font-plus-jakarta-sans text-black  rounded transition duration-500 ease-in-out transform hover:bg-black hover:text-white hover:scale-90'
       >
         Explore More
       </Link>
