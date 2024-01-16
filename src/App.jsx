@@ -40,9 +40,6 @@ const App = () => {
             <About />
             <Qaulity />
             <Work />
-            <div className="mt-20">
-
-            </div>
           </div>
         </div>
       </div>
