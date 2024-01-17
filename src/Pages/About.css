@@ -16,12 +16,14 @@
 #about{
     background-color: rgba(0, 0, 0, 0.612);
     backdrop-filter: blur(2px);
+    overflow: hidden;
 }
 #quality{
     background-color: rgba(0, 0, 0, 0.612);
     backdrop-filter: blur(2px);
     padding: 20px;
     margin-top: 20px;
+    overflow: hidden;
 }
 
 #quality{
@@ -29,22 +31,26 @@
     backdrop-filter: blur(2px);
     padding: 20px;
     margin-top: 20px;
+    overflow: hidden;
 }
 #work{
     background-color: rgba(0, 0, 0, 0.612);
     backdrop-filter: blur(2px);
     padding: 20px;
     margin-top: 20px;
+    overflow: hidden;
 }
 #contact{
     background-color: rgba(0, 0, 0, 0.612);
     backdrop-filter: blur(2px);
     padding: 20px;
     margin-top: 20px;
+    overflow: hidden;
 }
 #clients{
     background-color: rgba(0, 0, 0, 0.612);
     backdrop-filter: blur(2px);
     padding: 20px;
     margin-top: 20px;
+    overflow: hidden;
 }
