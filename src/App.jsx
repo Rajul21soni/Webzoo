@@ -4,7 +4,10 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Qaulity from "./Pages/Qaulity";
 import Work from "./Pages/Work";
-
+import DefaultModal from "./Components/DefaultModal";
+import Footer from "./Pages/Footer";
+import Contact from "./Pages/Contact";
+import Clients from "./Pages/Clients";
 const App = () => {
   const vantaRef = useRef(null);
 
@@ -40,6 +43,9 @@ const App = () => {
             <About />
             <Qaulity />
             <Work />
+            <Clients/>
+            <Contact/>
+            <DefaultModal/>
           </div>
         </div>
       </div>

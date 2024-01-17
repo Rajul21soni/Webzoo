@@ -30,7 +30,8 @@ const DefaultNavbar = () => {
       width: '36px',
       height: '30px',
       right: '36px',  // Set 'right' property to move the button to the right
-      top: '36px'
+      top: '36px',
+      zIndex:50
     },
     bmBurgerBars: {
       background: '#fff'
@@ -47,23 +48,24 @@ const DefaultNavbar = () => {
     },
     bmMenuWrap: {
       position: 'fixed',
-      height: '100%'
+      height: '100%',
     },
     bmMenu: {
       background: '#373a47',
       padding: '2.5em 1.5em 0',
       fontSize: '1.15em',
-      right:0
+      right:0,
+      zIndex:99
     },
     bmMorphShape: {
       fill: '#373a47'
     },
     bmItemList: {
       color: '#b8b7ad',
-      padding: '0.8em'
+      padding: '0.8em',
     },
     bmItem: {
-      display: 'inline-block'
+      display: 'inline-block',
     },
     bmOverlay: {
       background: 'rgba(0, 0, 0, 0.3)'

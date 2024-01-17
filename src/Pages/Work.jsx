@@ -35,7 +35,7 @@ const Work = () => {
       <p className="text-[16px] text-center my-10 text-white capitalize">
         Some of the many solutions our clients are happy with.
       </p>
-      <div className="flex flex-wrap justify-center gap-4">
+      <div className="flex flex-wrap justify-between gap-3">
   <Link
     to="slide1"
     spy={true}
@@ -43,7 +43,7 @@ const Work = () => {
     offset={50}
     duration={500}
     onSetActive={handleSetActive}
-    className="p-3 hover:cursor-pointer text-white bg-primary w-full md:w-auto rounded transition duration-500 text-center ease-in-out transform hover:bg-white hover:text-black hover:scale-90"
+    className="p-3 hover:cursor-pointer text-white w-full md:w-auto rounded transition duration-500 text-center ease-in-out transform hover:bg-white hover:text-black hover:scale-90"
   >
     Sports
   </Link>
@@ -54,7 +54,7 @@ const Work = () => {
     offset={50}
     duration={500}
     onSetActive={handleSetActive}
-    className="p-3 hover:cursor-pointer text-white w-full md:w-auto bg-primary rounded transition duration-500 text-center ease-in-out transform hover:bg-white hover:text-black hover:scale-90"
+    className="p-3 hover:cursor-pointer text-white w-full md:w-auto rounded transition duration-500 text-center ease-in-out transform hover:bg-white hover:text-black hover:scale-90"
   >
     CHATBOT
   </Link>
@@ -65,7 +65,7 @@ const Work = () => {
     offset={50}
     duration={500}
     onSetActive={handleSetActive}
-    className="p-3 hover:cursor-pointer text-white w-full md:w-auto bg-primary rounded transition duration-500 text-center ease-in-out transform hover:bg-white hover:text-black hover:scale-90"
+    className="p-3 hover:cursor-pointer text-white w-full md:w-auto  rounded transition duration-500 text-center ease-in-out transform hover:bg-white hover:text-black hover:scale-90"
   >
     CELL-SEGMENTATION
   </Link>
@@ -76,7 +76,7 @@ const Work = () => {
     offset={50}
     duration={500}
     onSetActive={handleSetActive}
-    className="p-3 hover:cursor-pointer text-white w-full md:w-auto bg-primary rounded transition duration-500 text-center ease-in-out transform hover:bg-white hover:text-black hover:scale-90"
+    className="p-3 hover:cursor-pointer text-white w-full md:w-auto rounded transition duration-500 text-center ease-in-out transform hover:bg-white hover:text-black hover:scale-90"
   >
     ANALYTICS TOOL
   </Link>
@@ -87,7 +87,7 @@ const Work = () => {
     offset={50}
     duration={500}
     onSetActive={handleSetActive}
-    className="p-3 hover:cursor-pointer text-white w-full md:w-auto bg-primary rounded transition duration-500 text-center ease-in-out transform hover:bg-white hover:text-black hover:scale-90"
+    className="p-3 hover:cursor-pointer text-white w-full md:w-auto    rounded transition duration-500 text-center ease-in-out transform hover:bg-white hover:text-black hover:scale-90"
   >
     COVID 19 STATUS DASHBOARD
   </Link>
