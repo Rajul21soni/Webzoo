@@ -14,7 +14,7 @@ import { CiMobile3 } from "react-icons/ci";
 
 const Qaulity = () => {
   return (
-    <div id="quality" className="container border rounded-xl mx-auto">
+    <div id="quality" className="container  rounded-xl mx-auto">
       <h1 className="text-primary text-center text-4xl font-bold font-plus-jakarta-sans">
         Our Qaulity
       </h1>

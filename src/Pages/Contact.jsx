@@ -13,7 +13,7 @@ const Contact = () => {
     <>
       <div
         id="contact"
-        className="mx-auto container border rounded-xl w-full md:w-[100%] bg-black text-white"
+        className="mx-auto container rounded-xl w-full md:w-[100%] text-white"
         
       >
         <div className="text-center m-8 pb-9">

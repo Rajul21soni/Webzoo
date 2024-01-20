@@ -40,7 +40,7 @@ const Home = () => {
         duration={500}
         onSetActive={handleSetActive}
         data-aos="fade-up" data-aos-duration="1500"
-        className='p-3 md:p-4 hover:cursor-pointer w-40 sm:w-48 text-center bg-white font-plus-jakarta-sans text-black  rounded transition duration-500 ease-in-out transform hover:bg-black hover:text-white hover:scale-90'
+        className='p-3 md:p-4 hover:cursor-pointer w-40 sm:w-48 text-center bg-white font-plus-jakarta-sans text-black  rounded transition duration-500 ease-in-out transform hover:bg-primary hover:text-white hover:scale-90'
       >
         Explore More
       </Link>

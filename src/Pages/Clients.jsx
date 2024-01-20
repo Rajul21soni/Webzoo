@@ -23,7 +23,7 @@ const Clients = () => {
   };
   return (
     <>
-      <div id="clients" className=" flex justify-center overflow-hidden border rounded-xl flex-col align-center container mx-auto  p-10 h-[400px]">
+      <div id="clients" className=" flex justify-center overflow-hidden  rounded-xl flex-col align-center container mx-auto  p-10 h-[400px]">
         <h1 data-aos="fade-left"
             data-aos-duration="500" className="text-white text-4xl text-center mb-20">Our Clients</h1>
         <Carousel

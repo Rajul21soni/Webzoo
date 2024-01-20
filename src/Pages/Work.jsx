@@ -28,7 +28,7 @@ const Work = () => {
     console.log(to);
   };
   return (
-    <div id="work" className="container border rounded-xl  mx-auto">
+    <div id="work" className="container rounded-xl  mx-auto">
       <h1 className="text-primary text-5xl text-center font-semibold font-plus-jakarta-sans mt-10">
         Our Work
       </h1>

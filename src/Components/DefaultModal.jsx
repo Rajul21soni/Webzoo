@@ -25,7 +25,7 @@ const DefaultModal = () => {
 
   return (
     <>
-      <button className="fixed right-4 bg-white text-2xl p-4 transition hover:scale-110 duration-[0.3s] rounded-lg hover:bg-black hover:text-white flex justify-center text-black bottom-4" onClick={showModal}>
+      <button className="fixed right-4 bg-white text-2xl p-4 transition hover:scale-110 duration-[0.3s] rounded-lg hover:bg-primary hover:text-white flex justify-center text-black bottom-4" onClick={showModal}>
         Contact Us
       </button>
       <Modal

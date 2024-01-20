@@ -39,7 +39,7 @@ const About = () => {
     },
   ];
   return (
-    <div id="about" className="container border rounded-xl mx-auto">
+    <div id="about" className="container rounded-xl mx-auto">
       <div className="flex flex-col lg:flex-row justify-center items-center lg:space-x-8">
         <div className=" text-center lg:text-left lg:w-1/2 p-5">
           <h1
