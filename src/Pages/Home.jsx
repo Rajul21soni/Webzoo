@@ -27,7 +27,7 @@ const Home = () => {
   return (
     <div id='home1' className='min-h-screen flex flex-col justify-center items-center'>
       <h1 data-aos="fade-up" data-aos-duration="500" className='text-white text-4xl md:text-6xl mx-4 md:mx-8 mb-3 md:mb-5 font-bold w-full text-center font-plus-jakarta-sans'>
-        TORQUEVISION LABS
+        WEBZOO
       </h1>
       <p data-aos="fade-up" data-aos-duration="1000" className='text-white text-lg md:text-2xl mx-4 md:mx-8 mb-3 md:mb-5 font-semibold font-plus-jakarta-sans'>
         DETERMINED AI EXPERT

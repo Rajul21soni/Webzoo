@@ -1,31 +1,44 @@
-import React, { useEffect, useRef } from "react";
-import DefaultNavbar from "./Components/DefaultNavbar";
-import Home from "./Pages/Home";
-import About from "./Pages/About";
-import Qaulity from "./Pages/Qaulity";
-import Work from "./Pages/Work";
-import DefaultModal from "./Components/DefaultModal";
-import Contact from "./Pages/Contact";
-import Clients from "./Pages/Clients";
+import React, { useEffect, useRef, useState } from "react";
 import ParticleComponent from "./Components/ParticleComponent";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import LandingPage from "./Components/LandingPage";
+import DataAnnotation from "./Components/DataAnnotation";
+import Loader from "./Components/Loader";
+import DataCollection from "./Components/DataCollection";
 
 const App = () => {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate an asynchronous operation (e.g., fetching data) here
+    const fetchData = async () => {
+      // Simulating a delay of 2 seconds
+      await new Promise((resolve) => setTimeout(resolve, 2000));
+      setIsLoading(false);
+    };
+
+    fetchData();
+  }, []); // Empty dependency array means this effect runs once on mount
 
   return (
     <>
-    <ParticleComponent></ParticleComponent>
-      <DefaultNavbar />
-      <div id="outer-container">
-        <div id="page-wrap">
-            <Home />
-          <About />
-          <Qaulity />
-          <Work />
-          <Clients />
-          <Contact />
-          <DefaultModal />
+      <Router>
+      <ParticleComponent />
+
+        {isLoading ? (
+          <div>
+            <Loader/>
           </div>
-      </div>
+        ) : (
+          <>
+          <Routes>
+            <Route path="/" element={<LandingPage />} />
+            <Route path="/dataannotation" element={<DataAnnotation />} />
+            <Route path="/datacollection" element={<DataCollection />} />
+          </Routes>
+          </>
+        )}
+      </Router>
     </>
   );
 };

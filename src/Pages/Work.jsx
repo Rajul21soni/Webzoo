@@ -1,10 +1,11 @@
 import React, { useEffect } from "react";
 import { Link, Events, scrollSpy } from "react-scroll";
-import Sports from "../assets/sports.png";
-import chatbot from "../assets/chatbot.png"
-import cell from "../assets/cell.png"
-import tool from "../assets/tool.png"
-import covid from "../assets/covid.png"
+import ImageAno from "../assets/imageAno.gif"
+import mv from "../assets/mv.gif"
+import cm from "../assets/cm.gif"
+import vi from "../assets/vi.gif"
+import ds1 from "../assets/ds1.gif"
+import { NavLink } from "react-router-dom";
 
 const Work = () => {
   useEffect(() => {
@@ -36,145 +37,292 @@ const Work = () => {
         Some of the many solutions our clients are happy with.
       </p>
       <div className="flex flex-wrap justify-between gap-3">
-  <Link
-    to="slide1"
-    spy={true}
-    smooth={true}
-    offset={50}
-    duration={500}
-    onSetActive={handleSetActive}
-    className="p-3 hover:cursor-pointer text-white w-full md:w-auto rounded transition duration-500 text-center ease-in-out transform hover:bg-white hover:text-black hover:scale-90"
-  >
-    Sports
-  </Link>
-  <Link
-    to="slide2"
-    spy={true}
-    smooth={true}
-    offset={50}
-    duration={500}
-    onSetActive={handleSetActive}
-    className="p-3 hover:cursor-pointer text-white w-full md:w-auto rounded transition duration-500 text-center ease-in-out transform hover:bg-white hover:text-black hover:scale-90"
-  >
-    CHATBOT
-  </Link>
-  <Link
-    to="slide3"
-    spy={true}
-    smooth={true}
-    offset={50}
-    duration={500}
-    onSetActive={handleSetActive}
-    className="p-3 hover:cursor-pointer text-white w-full md:w-auto  rounded transition duration-500 text-center ease-in-out transform hover:bg-white hover:text-black hover:scale-90"
-  >
-    CELL-SEGMENTATION
-  </Link>
-  <Link
-    to="slide4"
-    spy={true}
-    smooth={true}
-    offset={50}
-    duration={500}
-    onSetActive={handleSetActive}
-    className="p-3 hover:cursor-pointer text-white w-full md:w-auto rounded transition duration-500 text-center ease-in-out transform hover:bg-white hover:text-black hover:scale-90"
-  >
-    ANALYTICS TOOL
-  </Link>
-  <Link
-    to="slide5"
-    spy={true}
-    smooth={true}
-    offset={50}
-    duration={500}
-    onSetActive={handleSetActive}
-    className="p-3 hover:cursor-pointer text-white w-full md:w-auto    rounded transition duration-500 text-center ease-in-out transform hover:bg-white hover:text-black hover:scale-90"
-  >
-    COVID 19 STATUS DASHBOARD
-  </Link>
-</div>
+        <Link
+          to="slide1"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+          onSetActive={handleSetActive}
+          className="p-3 hover:cursor-pointer bg-primary text-white w-full md:w-auto rounded transition duration-500 text-center ease-in-out transform hover:bg-white hover:text-black hover:scale-90"
+        >
+          Data Annotation
+        </Link>
+        <Link
+          to="slide2"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+          onSetActive={handleSetActive}
+          className="p-3 hover:cursor-pointer bg-primary text-white w-full md:w-auto rounded transition duration-500 text-center ease-in-out transform hover:bg-white hover:text-black hover:scale-90"
+        >
+          Data Collection
+        </Link>
+        <Link
+          to="slide3"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+          onSetActive={handleSetActive}
+          className="p-3 hover:cursor-pointer bg-primary text-white w-full md:w-auto  rounded transition duration-500 text-center ease-in-out transform hover:bg-white hover:text-black hover:scale-90"
+        >
+          Content Moderation
+        </Link>
+        <Link
+          to="slide4"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+          onSetActive={handleSetActive}
+          className="p-3 hover:cursor-pointer bg-primary text-white w-full md:w-auto rounded transition duration-500 text-center ease-in-out transform hover:bg-white hover:text-black hover:scale-90"
+        >
+          Visual Inspection
+        </Link>
+        <Link
+          to="slide5"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+          onSetActive={handleSetActive}
+          className="p-3 hover:cursor-pointer bg-primary text-white w-full md:w-auto    rounded transition duration-500 text-center ease-in-out transform hover:bg-white hover:text-black hover:scale-90"
+        >
+          Data Scraping
+        </Link>
+      </div>
 
-      <div id="slide1" className="flex flex-col md:flex-row items-center justify-center">
+      <div
+        id="slide1"
+        className="flex flex-col md:flex-row items-center justify-center"
+      >
         <div className="md:w-1/2">
-          <h1 data-aos="fade-up" data-aos-duration="500" className="text-4xl font-semibold my-10 text-white text-center md:text-left">
-            SPORTS ANALYSIS
+          <h1
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-sine"
+            className="text-4xl font-semibold my-10 text-white text-center md:text-left"
+          >
+            Data Annotation
           </h1>
-          <p data-aos="fade-up" data-aos-duration="1000" className="text-xl font-semibold my-10 text-primary text-center md:text-left">
-            Computer vision-based sports analysis.
+          <p
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-sine"
+            className="text-xl font-semibold my-10 text-primary text-center md:text-left"
+          >
+            Computer vision-based Data Annotation .
           </p>
-          <p data-aos="fade-up" data-aos-duration="1500" className="text-md font-semibold text-white text-center md:text-left">
-            We design, build, and implement top-notch solutions with agile
-            advisory services, supreme advanced analytics, and a robust
-            technology platform that helps sports bodies, athletes, teams,
-            brands, broadcasters, and media achieve better outcomes, and we
-            create epic results for our clients around the globe.
+          <p
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-sine"
+            className="text-md font-semibold text-white text-center md:text-left"
+          >
+            Data annotation is the process of labeling data available in a
+            video, image or text. The data is labeled, so that models can easily
+            comprehend a given data source and recognize certain formats,
+            objects, information, or patterns in the future
           </p>
+          <div data-aos="fade-up"
+          data-aos-duration="2000" data-aos-easing="ease-in-sine" className="mt-10">
+          <NavLink
+          to={'/dataannotation'}
+            className="p-3 md:p-4 mt-10 hover:cursor-pointer bg-primary w-40 sm:w-48 text-center font-plus-jakarta-sans text-white  rounded transition duration-500 ease-in-out transform hover:bg-white hover:text-black hover:scale-90'
+            
+"
+          >
+            Read More
+          </NavLink>
+          </div>
         </div>
-        <div className="my-5 md:w-1/2 flex justify-center">
-          <img src={Sports} alt="sports" className="max-w-full rounded-3xl h-auto" />
+        <div className="my-10 md:w-1/2 flex justify-center">
+          <img
+            src={ImageAno}
+            alt="Data annotation"
+            className="max-w-full rounded-3xl h-auto"
+          />
         </div>
       </div>
-      <div id="slide2" className="flex flex-col md:flex-row items-center justify-center">
+      <div
+        id="slide2"
+        className="flex flex-col md:flex-row items-center justify-center"
+      >
         <div className="md:w-1/2">
-          <h1 data-aos="fade-up" data-aos-duration="500" className="text-4xl font-semibold my-10 text-white text-center md:text-left">
-          CHATBOT
+          <h1
+            data-aos="fade-up"
+            data-aos-duration="500"
+            className="text-4xl font-semibold my-10 text-white text-center md:text-left"
+          >
+            Data Collection   
           </h1>
-          <p data-aos="fade-up" data-aos-duration="1000" className="text-xl font-semibold my-10 text-primary text-center md:text-left">
-          Chatbot development for a smarter and efficient workflow.
+          <p
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            className="text-xl font-semibold my-10 text-primary text-center md:text-left"
+          >
+            Data Collection for a smarter and efficient workflow.
           </p>
-          <p data-aos="fade-up" data-aos-duration="1500" className="text-md font-semibold text-white text-center md:text-left">
-          BotsCrew displayed the utmost professionalism, providing updates whenever required and mitigating time-zone dependent scheduling issues. Customers can expect comprehensive support, even post-delivery.
+          <p
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            className="text-md font-semibold text-white text-center md:text-left"
+          >
+           Data collection is the process of gathering and measuring information on variables of interest, in an established systematic fashion that enables one to answer stated research questions, test hypotheses, and evaluate outcomes.
           </p>
+          <div data-aos="fade-up"
+          data-aos-duration="2000" data-aos-easing="ease-in-sine" className="mt-10">
+          <NavLink
+          to={'/datacollection'}
+            className="p-3 md:p-4 mt-10 hover:cursor-pointer bg-primary w-40 sm:w-48 text-center font-plus-jakarta-sans text-white  rounded transition duration-500 ease-in-out transform hover:bg-white hover:text-black hover:scale-90'
+            
+"
+          >
+            Read More
+          </NavLink>
+          </div>
         </div>
-        <div className="my-5 md:w-1/2 flex justify-center">
-          <img src={chatbot} alt="chatbot" className="max-w-full rounded-3xl h-auto" />
+        <div className="my-10 md:w-1/2 flex justify-center">
+          <img
+            src={mv}
+            alt="Data Collection"
+            className="max-w-full rounded-3xl h-auto"
+          />
         </div>
       </div>
-      <div id="slide3" className="flex flex-col md:flex-row items-center justify-center">
+      <div
+        id="slide3"
+        className="flex flex-col md:flex-row items-center justify-center"
+      >
         <div className="md:w-1/2">
-          <h1 data-aos="fade-up" data-aos-duration="500" className="text-4xl font-semibold my-10 text-white text-center md:text-left">
-          CELL-SEGMENTATION
+          <h1
+            data-aos="fade-up"
+            data-aos-duration="500"
+            className="text-4xl font-semibold my-10 text-white text-center md:text-left"
+          >
+            Content Moderation
           </h1>
-          <p data-aos="fade-up" data-aos-duration="1000" className="text-xl font-semibold my-10 text-primary text-center md:text-left">
-          Computer vision in health care.
+          <p
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            className="text-xl font-semibold my-10 text-primary text-center md:text-left"
+          >
+            Computer vision in Content Moderation.
           </p>
-          <p data-aos="fade-up" data-aos-duration="1500" className="text-md font-semibold text-white text-center md:text-left">
-          Our unique composite measure of engagement assesses individual risk and predicts patient outcome. we do research on Biotechnology, Diagnostics etc.
+          <p
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            className="text-md font-semibold text-white text-center md:text-left"
+          >
+             Content Moderation is the process of reviewing and monitoring user-generated content on online platforms to ensure that it meets certain standards and guidelines. This includes removing inappropriate or offensive content and enforcing community guidelines and terms of service
           </p>
+          <button
+          data-aos="fade-up"
+          data-aos-duration="2000"
+            className="p-3 md:p-4 mt-10 hover:cursor-pointer bg-primary w-40 sm:w-48 text-center font-plus-jakarta-sans text-white  rounded transition duration-500 ease-in-out transform hover:bg-white hover:text-black hover:scale-90'
+            
+"
+          >
+            Read More
+          </button>
         </div>
-        <div className="my-5 md:w-1/2 flex justify-center">
-          <img src={cell} alt="cell" className="max-w-full rounded-3xl h-auto" />
+        <div className="my-10 md:w-1/2 flex justify-center">
+          <img
+            src={cm}
+            alt="Content Moderation"
+            className="max-w-full rounded-3xl h-auto"
+          />
         </div>
       </div>
-      <div id="slide4" className="flex flex-col md:flex-row items-center justify-center">
+      <div
+        id="slide4"
+        className="flex flex-col md:flex-row items-center justify-center"
+      >
         <div className="md:w-1/2">
-          <h1 data-aos="fade-up" data-aos-duration="500" className="text-4xl font-semibold my-10 text-white text-center md:text-left">
-          ANALYTICS TOOL
+          <h1
+            data-aos="fade-up"
+            data-aos-duration="500"
+            className="text-4xl font-semibold my-10 text-white text-center md:text-left"
+          >
+            Visual Inspection
           </h1>
-          <p data-aos="fade-up" data-aos-duration="1000" className="text-xl font-semibold my-10 text-primary text-center md:text-left">
-          Get valuable insights from user interactions and data around the globe.
+          <p
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            className="text-xl font-semibold my-10 text-primary text-center md:text-left"
+          >
+            Get valuable insights from user interactions and data around the
+            globe.
           </p>
-          <p data-aos="fade-up" data-aos-duration="1500" className="text-md font-semibold text-white text-center md:text-left">
-          Millions of items/products are uploaded over thousands of e-commerce sites, Torque vision provides the key data, trends and insights you need to drive your business strategy and growth. We have pioneered cutting edge data analytics to augment business trades and sell experience.
+          <p
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            className="text-md font-semibold text-white text-center md:text-left"
+          >
+             Visual inspection is a technique for detecting defects using the naked eye to ensure equipment is working properly or that manufactured products are being made to specification.
           </p>
+          <button
+          data-aos="fade-up"
+          data-aos-duration="2000"
+            className="p-3 md:p-4 mt-10 hover:cursor-pointer bg-primary w-40 sm:w-48 text-center font-plus-jakarta-sans text-white  rounded transition duration-500 ease-in-out transform hover:bg-white hover:text-black hover:scale-90'
+            
+"
+          >
+            Read More
+          </button>
         </div>
-        <div className="my-5 md:w-1/2 flex justify-center">
-          <img src={tool} alt="tool" className="max-w-full rounded-3xl h-auto" />
+        <div className="my-10 md:w-1/2 flex justify-center">
+          <img
+            src={vi}
+            alt="Visual Inspection"
+            className="max-w-full  rounded-3xl h-auto"
+          />
         </div>
       </div>
-      <div id="slide5" className="flex flex-col md:flex-row items-center justify-center">
+      <div
+        id="slide5"
+        className="flex flex-col md:flex-row items-center justify-center"
+      >
         <div className="md:w-1/2">
-          <h1 data-aos="fade-up" data-aos-duration="500" className="text-4xl font-semibold my-10 text-white text-center md:text-left">
-          REAL TIME COVID 19 STATUS DASHBOARD
+          <h1
+            data-aos="fade-up"
+            data-aos-duration="500"
+            className="text-4xl font-semibold my-10 text-white text-center md:text-left"
+          >
+            Data Scraping 
           </h1>
-          <p data-aos="fade-up" data-aos-duration="1000" className="text-xl font-semibold my-10 text-primary text-center md:text-left">
-          GKeeping up-to-date with Covid-19 can be difficult.
+          <p
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            className="text-xl font-semibold my-10 text-primary text-center md:text-left"
+          >
+            Computer program extracts data from output generated from another program.
           </p>
-          <p data-aos="fade-up" data-aos-duration="1500" className="text-md font-semibold text-white text-center md:text-left">
-          In the midst of crisis its not only the numbers you can rely on. TorqueVision has developed a solution. Our Dashboard Application contains information of hospitals near you, urgent-care facilities.We are constantly adding features to you stay ahead and stay safe in this Global Pandemic.
+          <p
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            className="text-md font-semibold text-white text-center md:text-left"
+          >
+            Data Scraping  is a technique in which a computer program extracts data from output generated from another program. Data scraping is commonly manifest in web scraping, the process of using an application to extract valuable information from a website.
           </p>
+          <button
+          data-aos="fade-up"
+          data-aos-duration="2000"
+            className="p-3 md:p-4 mt-10 hover:cursor-pointer bg-primary w-40 sm:w-48 text-center font-plus-jakarta-sans text-white  rounded transition duration-500 ease-in-out transform hover:bg-white hover:text-black hover:scale-90'
+            
+"
+          >
+            Read More
+          </button>
         </div>
         <div className="my-5 md:w-1/2 flex justify-center">
-          <img src={covid} alt="tool" className="max-w-full rounded-3xl h-auto" />
+          <img
+            src={ds1}
+            alt="Data Scraping"
+            className="max-w-full rounded-3xl h-auto"
+          />
         </div>
       </div>
     </div>

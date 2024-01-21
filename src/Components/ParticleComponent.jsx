@@ -36,12 +36,8 @@ const ParticleComponent = () => {
             value: "#1b1e34",
         },
         shape: {
-            type: "polygon",
-            options: {
-                polygon: {
-                    sides: 6,
-                },
-            },
+            type: "square",
+            
         },
         opacity: {
             value: {

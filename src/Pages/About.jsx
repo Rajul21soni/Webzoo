@@ -1,23 +1,23 @@
 import React, { useState } from "react";
 import ai from "../assets/ai.png";
-import { IoBarChartOutline } from "react-icons/io5";
+import { MdHealthAndSafety } from "react-icons/md";
+import { MdAgriculture } from "react-icons/md";
 import { GiRobotGolem } from "react-icons/gi";
-import { AiOutlineSolution } from "react-icons/ai";
-import { GiBleedingEye } from "react-icons/gi";
+import { FaCarRear } from "react-icons/fa6";
 import "./About.css";
 
 const About = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
   const cardData = [
     {
-      icon: <IoBarChartOutline className="text-white p-2 text-[50px]" />,
-      title: "Real Time Analytics",
+      icon: <MdHealthAndSafety className="text-white p-2 text-[50px]" />,
+      title: "Healthcare",
       description:
         "The times of waiting for your statistics are over. Real Time Analytics converts the results of several important events into coherent information within a second. You will be able to access received data the moment it happen",
     },
     {
-      icon: <GiBleedingEye className="text-white p-2 text-[50px]" />,
-      title: "Computer Vision",
+      icon: <MdAgriculture className="text-white p-2 text-[50px]" />,
+      title: "Agriculture",
       description:
         "Let the computer work for you. Every new image is added to the data pool and contributes to the autonomous learning process.",
     },
@@ -25,15 +25,13 @@ const About = () => {
       icon: (
         <GiRobotGolem className="text-white p-2 text-[50px] rounded-full" />
       ),
-      title: "More data means better output.",
+      title: "Robotics",
       description:
         "Artificial Intelligence makes it possible. It can understand natural languages and interact with us by reading, writing, listening and speaking. By progressing the data from these interactions, it continuously learns and improves itself.",
     },
     {
-      icon: (
-        <AiOutlineSolution className="text-white p-2 text-[50px] rounded-full" />
-      ),
-      title: "Solutions",
+      icon: <FaCarRear className="text-white p-2 text-[50px] rounded-full" />,
+      title: "Autonomous Vehicles",
       description:
         "And the fact that we provide Enterprise-Class as well as personalized solutions.Our solutions have helped a lot of clients and we are sure we can provide value to you as well",
     },
@@ -45,61 +43,139 @@ const About = () => {
           <h1
             data-aos="fade-right"
             data-aos-duration="500"
+            data-aos-easing="ease-in-sine"
             className="text-primary text-5xl font-semibold font-plus-jakarta-sans mt-5"
           >
-            ABOUT <br />
-            TORQUEVISION LABS
+            Why Choose
+            <br />
+            <strong className="text-6xl">WebZoo</strong>
           </h1>
           <p
             data-aos="fade-right"
-            data-aos-duration="1000"
-            className="text-white text-left text-xl mt-5"
+            data-aos-duration="500" data-aos-easing="ease-in-sine"
+            className=" text-primary font-semibold text-left text-2xl mt-5"
           >
-            TorqueVision – Providing Innovative, AI Driven Solutions
-            <br /> to Companies, Enterprise, and You!
+            Accuracy and Precision-
           </p>
           <p
             data-aos="fade-right"
-            data-aos-duration="1500"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-sine"
             className="text-white text-left text-xl mt-5"
           >
-            We develop personalized AI solutions, Data Analytics Solutions,
-            <br /> Business Intelligence, Machine Learning Algorithms, Solutions
-            that
-            <br /> add value to clients.
+            Our expert annotators ensure every label is precise,
+            <br />
+            contributing to the reliability of your AI models.
           </p>
           <p
             data-aos="fade-right"
-            data-aos-duration="2000"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-sine"
+            className=" text-primary font-semibold text-left text-2xl mt-5"
+          >
+            Scalability-
+          </p>
+          <p
+            data-aos="fade-right"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-sine"
             className="text-white text-left text-xl mt-5"
           >
-            Our Solutions enable you to Search, Observe, Comprehend, and get
-            <br /> Insights lying dormant in your Data. The Valuable Insights
-            can
-            <br /> change the course of your business, achieve higher goals and
-            fulfill
-            <br /> the purpose for which you hired us.
+            From small datasets to large-scale projects, we adapt to your needs,
+            <br /> ensuring timely delivery without compromising quality.
+          </p>
+          <p
+            data-aos="fade-right"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-sine"
+            className=" text-primary font-semibold text-left text-2xl mt-5"
+          >
+            Custom Solutions-
+          </p>
+          <p
+            data-aos="fade-right"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-sine"
+            className="text-white text-left text-xl mt-5"
+          >
+            Tailor-made annotation services to meet your unique project
+            requirements,
+            <br /> ensuring maximum relevance and efficiency.
+          </p>
+          <p
+            data-aos="fade-right"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-sine"
+            className=" text-primary font-semibold text-left text-2xl mt-5"
+          >
+            Security and Confidentiality-
+          </p>
+          <p
+            data-aos="fade-right"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-sine"
+            className="text-white text-left text-xl mt-5"
+          >
+            Your data security is our priority. We follow stringent protocols
+            <br /> to safeguard your sensitive information.
+          </p>
+          <p
+            data-aos="fade-right"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-sine"
+            className=" text-primary font-semibold text-left text-2xl mt-5"
+          >
+            State-of-the-Art Technology-
+          </p>
+          <p
+            data-aos="fade-right"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-sine"
+            className="text-white text-left text-xl mt-5"
+          >
+            Leveraging the latest tools and techniques, we stay at the forefront
+            of data annotation,
+            <br /> providing you with the best-in-class services.
           </p>
         </div>
         <div className="mt-5 lg:mt-0">
-          <img src={ai} className="w-full hidden lg:block lg:w-full h-auto" alt="ai"></img>
+          <img
+            src={ai}
+            className="w-full hidden lg:block lg:w-full h-auto"
+            alt="ai"
+          ></img>
         </div>
       </div>
       <div>
         <div>
           <div className="w-11/12 mx-auto py-24">
             <div className="">
-              <h1 data-aos="fade-up" data-aos-duration="1000" className="uppercase mb-4 text-center text-4xl font-bold text-primary">
-                WHY TORQUEVISION
+              <h1
+                data-aos="fade-up"
+                data-aos-duration="500"
+                data-aos-easing="ease-in-sine"
+                className="uppercase mb-4 text-center text-4xl font-bold text-primary"
+              >
+                Industries We Serve
               </h1>
-              <div data-aos="fade-up" data-aos-duration="1500" className="flex justify-center">
+              <div
+                data-aos="fade-up"
+                data-aos-duration="500"
+                data-aos-easing="ease-in-sine"
+                className="flex justify-center"
+              >
                 <img
                   className="w-48"
                   src="https://i.ibb.co/Wc6ScBF/devider.png"
-                  alt="" 
+                  alt=""
                 />
               </div>
-              <p data-aos="fade-up" data-aos-duration="2000" className="text-[16px] text-center mt-4 mb-20 text-white capitalize">
+              <p
+                data-aos="fade-up"
+                data-aos-duration="500"
+                data-aos-easing="ease-in-sine"
+                className="text-[16px] text-center mt-4 mb-20 text-white capitalize"
+              >
                 Little Information About Us
               </p>
             </div>
@@ -144,6 +220,16 @@ const About = () => {
                   </div>
                 </div>
               ))}
+              <p
+                data-aos="fade-up"
+                data-aos-duration="500"
+                data-aos-easing="ease-in-sine"
+                className="p-3 md:p-4 mt-10 hover:cursor-pointer bg-primary w-40 sm:w-48 text-center font-plus-jakarta-sans text-white  rounded transition duration-500 ease-in-out transform hover:bg-white hover:text-black hover:scale-90'
+            
+"
+              >
+                And Many More..
+              </p>
             </div>
           </div>
         </div>
