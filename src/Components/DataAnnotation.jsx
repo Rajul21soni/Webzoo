@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import imgAno from "../assets/imgAno.gif";
 import text from "../assets/text.gif";
 import video from "../assets/video.gif"
@@ -7,18 +7,24 @@ import { NavLink } from "react-router-dom";
 import { TiArrowBack } from "react-icons/ti";
 
 const DataAnnotation = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <div className="flex flex-col items-center">
-      <div className="my-10 w-full">
+      <div className="container mx-auto my-10 w-full">
         <NavLink to={'/'} className="p-3 ml-5 md:p-4 mb-10 hover:cursor-pointer bg-primary text-center flex font-plus-jakarta-sans text-white w-20   rounded-full transition duration-500 ease-in-out transform hover:bg-white hover:text-black hover:scale-90">< TiArrowBack className="text-4xl ml-2"/></NavLink>
-        <h1
+        <p
           data-aos="fade-up"
           data-aos-duration="500"
           data-aos-easing="ease-in-sine"
-          className="text-white text-4xl md:text-6xl mx-4 md:mx-8 mb-3 md:mb-5 font-bold w-full text-center font-plus-jakarta-sans"
+          className="text-white text-6xl mx-4 mb-3 font-bold w-full text-center font-plus-jakarta-sans"
         >
           Data Annotation
-        </h1>
+        </p>
         <p
           data-aos="fade-up"
           data-aos-duration="1000"

@@ -5,6 +5,7 @@ import LandingPage from "./Components/LandingPage";
 import DataAnnotation from "./Components/DataAnnotation";
 import Loader from "./Components/Loader";
 import DataCollection from "./Components/DataCollection";
+import ContentModeration from "./Components/ContentModeration";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -35,6 +36,7 @@ const App = () => {
             <Route path="/" element={<LandingPage />} />
             <Route path="/dataannotation" element={<DataAnnotation />} />
             <Route path="/datacollection" element={<DataCollection />} />
+            <Route path="/contentmoderation" element={<ContentModeration />} />
           </Routes>
           </>
         )}

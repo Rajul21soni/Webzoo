@@ -1,18 +1,18 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { TiArrowBack } from "react-icons/ti";
-import web from "../assets/web.gif";
 import Marquee from "react-fast-marquee";
-import Marquee1 from "../assets/marquee1.jpg";
-import Marquee2 from "../assets/marquee2.jpg";
-import Marquee3 from "../assets/marquee3.png";
-import Marquee4 from "../assets/marquee4.png";
-import Marquee5 from "../assets/marquee5.jpg";
-import Marquee6 from "../assets/marquee6.jpg";
-import Marquee7 from "../assets/marquee7.png";
-import Marquee8 from "../assets/marquee8.jpg";
+import Marquee1 from "../assets/marquee1.webp";
+import Marquee2 from "../assets/maarquee2.jpg";
+import Marquee3 from "../assets/maarquee3.jpeg";
+import Marquee4 from "../assets/maarquee4.png";
+import Marquee5 from "../assets/maarquee5.png";
+import Marquee6 from "../assets/maarquee6.jpeg";
+import Marquee7 from "../assets/maarquee7.webp";
+import Marquee8 from "../assets/maarquee8.jpg";
+import cm from "../assets/cm.gif"
 
-const DataCollection = () => {
+const ContentModeration = () => {
   return (
     <div className="flex flex-col items-center">
       <div className="container mx-auto my-10 w-full">
@@ -23,14 +23,14 @@ const DataCollection = () => {
           <TiArrowBack className="text-4xl ml-2" />
         </NavLink>
         <div className="container">
-        <p
-          data-aos="fade-up"
-          data-aos-duration="500"
-          data-aos-easing="ease-in-sine"
-          className="text-white text-6xl mx-4 mb-3 font-bold w-full text-center font-plus-jakarta-sans"
-        >
-          Data Collection
-        </p>
+          <p
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-sine"
+            className="text-white text-6xl mx-4 mb-3 font-bold w-full text-center font-plus-jakarta-sans"
+          >
+            ContentModeration
+          </p>
         </div>
         <p
           data-aos="fade-up"
@@ -38,7 +38,7 @@ const DataCollection = () => {
           data-aos-easing="ease-in-sine"
           className="text-primary text-center text-lg md:text-2xl mb-3 font-semibold font-plus-jakarta-sans"
         >
-          Your Trusted Data Collection Partner
+          Your Trusted Content Moderation Partner
         </p>
         <p
           data-aos="fade-up"
@@ -46,18 +46,18 @@ const DataCollection = () => {
           data-aos-easing="ease-in-sine"
           className="text-white text-center md:text-lg mx-4 mb-3 font-semibold font-plus-jakarta-sans"
         >
-          In today's fast-paced digital world, data is the heartbeat of every
-          successful business. At WebZoo, we understand the critical role that
-          accurate and relevant data plays in driving informed decision-making.
-          Our data collection service is designed to empower your organization
-          with the most up-to-date and comprehensive information, giving you a
-          competitive edge in the market.
+          In the dynamic world of online content, maintaining a safe and
+          welcoming digital environment is paramount. At [Your Company Name], we
+          take pride in being your trusted partner for comprehensive content
+          moderation services. Our dedicated team of experts is committed to
+          safeguarding your online community, ensuring a positive and secure
+          experience for users.
         </p>
       </div>
 
       <div className="container mx-auto">
         <p className="text-lg  text-white font-semibold mb-4 text-center">
-          Our Data Collection Services
+          Our Content Moderation Services
         </p>
         <h2 className="text-4xl font-bold text-primary mb-4 text-center">
           #Include
@@ -89,8 +89,8 @@ const DataCollection = () => {
           <div className="md:w-1/2 mt-20  rounded-lg mb-6 md:mb-0">
             <div className="bg-primary overflow-hidden rounded-xl rounded-e-full p-5">
               <img
-                src={web}
-                alt="web"
+                src={cm}
+                alt="cm"
                 data-aos="fade-right"
                 data-aos-duration="1500"
                 data-aos-easing="ease-in-sine"
@@ -98,23 +98,23 @@ const DataCollection = () => {
               />
             </div>
           </div>
-          <div className="w-full md:w-1/2 md:ml-4">
+          <div className="w-full my-20 md:w-1/2 md:ml-4">
             <p className="text-4xl p-3 md:text-5xl font-semibold text-primary lg:text-left sm:text-center mb-4">
-              Web Scraping
+              Text Moderation
             </p>
             <p className="text-xl p-3 md:text-md text-white lg:text-left sm:text-center">
-              Extract valuable information from websites and online sources to
-              gain insights into market trends, competitor activities, and more.
-              Survey and Feedback Collection: Capture the opinions and
-              preferences of your target audience through professionally crafted
-              surveys and feedback forms. Social Media Monitoring: Stay on top
-              of social media trends and sentiments relevant to your brand,
-              allowing you to engage effectively with your audience. Market
-              Research: Access comprehensive data sets to analyze market
-              dynamics, identify opportunities, and make informed strategic
-              decisions. Custom Data Solutions: Have a specific data need? Our
-              team of experts is ready to design a custom solution tailored to
-              your unique requirements.
+              Scrutinize and filter text content to identify and eliminate
+              offensive language, hate speech, and other policy violations.
+              Image and Video Moderation: Utilize advanced image recognition
+              technology to detect and manage inappropriate or explicit visual
+              content. User Profile Review: Ensure that user profiles comply
+              with your platform's guidelines and standards, preventing the
+              creation and spread of fake or harmful accounts. Community
+              Guidelines Enforcement: Enforce your platform's community
+              guidelines consistently to create a positive and respectful online
+              environment. Live Chat Moderation: Monitor and moderate live chats
+              and real-time interactions, maintaining a safe space for users to
+              engage.
             </p>
           </div>
         </div>
@@ -126,7 +126,7 @@ const DataCollection = () => {
           data-aos-easing="ease-in-sine"
           className="text-white text-center md:text-lg mx-4 md:mx-8 mb-3 md:mb-5 font-semibold font-plus-jakarta-sans"
         >
-          Partner with WebZoo for unparalleled data collection services. Let us
+          Partner with WebZoo for unparalleled Content Moderation services. Let us
           be the catalyst for your business success. Contact us today to discuss
           how we can elevate your data strategy to new heights!
         </p>
@@ -135,4 +135,4 @@ const DataCollection = () => {
   );
 };
 
-export default DataCollection;
+export default ContentModeration;

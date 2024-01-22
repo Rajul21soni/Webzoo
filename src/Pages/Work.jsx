@@ -130,9 +130,8 @@ const Work = () => {
           data-aos-duration="2000" data-aos-easing="ease-in-sine" className="mt-10">
           <NavLink
           to={'/dataannotation'}
-            className="p-3 md:p-4 mt-10 hover:cursor-pointer bg-primary w-40 sm:w-48 text-center font-plus-jakarta-sans text-white  rounded transition duration-500 ease-in-out transform hover:bg-white hover:text-black hover:scale-90'
-            
-"
+          className="p-3 md:p-4 mt-10 hover:cursor-pointer bg-primary w-40 sm:w-48 text-center font-plus-jakarta-sans text-white  rounded transition duration-500 ease-in-out transform hover:bg-white hover:text-black hover:scale-90'
+          "
           >
             Read More
           </NavLink>
@@ -218,15 +217,17 @@ const Work = () => {
           >
              Content Moderation is the process of reviewing and monitoring user-generated content on online platforms to ensure that it meets certain standards and guidelines. This includes removing inappropriate or offensive content and enforcing community guidelines and terms of service
           </p>
-          <button
-          data-aos="fade-up"
-          data-aos-duration="2000"
+          <div data-aos="fade-up"
+          data-aos-duration="2000" data-aos-easing="ease-in-sine" className="mt-10">
+          <NavLink
+          to={'/contentmoderation'}
             className="p-3 md:p-4 mt-10 hover:cursor-pointer bg-primary w-40 sm:w-48 text-center font-plus-jakarta-sans text-white  rounded transition duration-500 ease-in-out transform hover:bg-white hover:text-black hover:scale-90'
             
 "
           >
             Read More
-          </button>
+          </NavLink>
+          </div>
         </div>
         <div className="my-10 md:w-1/2 flex justify-center">
           <img
