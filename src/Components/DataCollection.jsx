@@ -3,14 +3,14 @@ import { NavLink } from "react-router-dom";
 import { TiArrowBack } from "react-icons/ti";
 import web from "../assets/web.gif";
 import Marquee from "react-fast-marquee";
-import Marquee1 from "../assets/marquee1.jpg";
-import Marquee2 from "../assets/marquee2.jpg";
-import Marquee3 from "../assets/marquee3.png";
-import Marquee4 from "../assets/marquee4.png";
-import Marquee5 from "../assets/marquee5.jpg";
-import Marquee6 from "../assets/marquee6.jpg";
-import Marquee7 from "../assets/marquee7.png";
-import Marquee8 from "../assets/marquee8.jpg";
+import Marquee1 from "../assets/Marquee1.jpg";
+import Marquee2 from "../assets/Marquee2.jpg";
+import Marquee3 from "../assets/Marquee3.png";
+import Marquee4 from "../assets/Marquee4.png";
+import Marquee5 from "../assets/Marquee5.jpg";
+import Marquee6 from "../assets/Marquee6.jpg";
+import Marquee7 from "../assets/Marquee7.png";
+import Marquee8 from "../assets/Marquee8.jpg";
 
 const DataCollection = () => {
   return (

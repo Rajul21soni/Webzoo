@@ -4,12 +4,12 @@ import { TiArrowBack } from "react-icons/ti";
 import Marquee from "react-fast-marquee";
 import Marquee1 from "../assets/marquee1.webp";
 import Marquee2 from "../assets/maarquee2.jpg";
-import Marquee3 from "../assets/maarquee3.jpeg";
-import Marquee4 from "../assets/maarquee4.png";
-import Marquee5 from "../assets/maarquee5.png";
-import Marquee6 from "../assets/maarquee6.jpeg";
-import Marquee7 from "../assets/maarquee7.webp";
-import Marquee8 from "../assets/maarquee8.jpg";
+import Marquee3 from "../assets/Maarquee3.jpeg";
+import Marquee4 from "../assets/Maarquee4.png";
+import Marquee5 from "../assets/Maarquee5.png";
+import Marquee6 from "../assets/Maarquee6.jpeg";
+import Marquee7 from "../assets/Maarquee7.webp";
+import Marquee8 from "../assets/Maarquee8.jpg";
 import cm from "../assets/cm.gif"
 
 const ContentModeration = () => {
