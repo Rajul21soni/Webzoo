@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { TiArrowBack } from "react-icons/ti";
 import Marquee from "react-fast-marquee";
@@ -13,6 +13,12 @@ import Marquee8 from "../assets/Maarquee8.jpg";
 import cm from "../assets/cm.gif"
 
 const ContentModeration = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <div className="flex flex-col items-center">
       <div className="container mx-auto my-10 w-full">

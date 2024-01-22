@@ -264,15 +264,16 @@ const Work = () => {
           >
              Visual inspection is a technique for detecting defects using the naked eye to ensure equipment is working properly or that manufactured products are being made to specification.
           </p>
-          <button
-          data-aos="fade-up"
-          data-aos-duration="2000"
-            className="p-3 md:p-4 mt-10 hover:cursor-pointer bg-primary w-40 sm:w-48 text-center font-plus-jakarta-sans text-white  rounded transition duration-500 ease-in-out transform hover:bg-white hover:text-black hover:scale-90'
-            
-"
+          <div data-aos="fade-up"
+          data-aos-duration="2000" data-aos-easing="ease-in-sine" className="mt-10">
+          <NavLink
+          to={'/visualinspection'}
+          className="p-3 md:p-4 mt-10 hover:cursor-pointer bg-primary w-40 sm:w-48 text-center font-plus-jakarta-sans text-white  rounded transition duration-500 ease-in-out transform hover:bg-white hover:text-black hover:scale-90'
+          "
           >
             Read More
-          </button>
+          </NavLink>
+          </div>
         </div>
         <div className="my-10 md:w-1/2 flex justify-center">
           <img
@@ -308,15 +309,16 @@ const Work = () => {
           >
             Data Scraping  is a technique in which a computer program extracts data from output generated from another program. Data scraping is commonly manifest in web scraping, the process of using an application to extract valuable information from a website.
           </p>
-          <button
-          data-aos="fade-up"
-          data-aos-duration="2000"
-            className="p-3 md:p-4 mt-10 hover:cursor-pointer bg-primary w-40 sm:w-48 text-center font-plus-jakarta-sans text-white  rounded transition duration-500 ease-in-out transform hover:bg-white hover:text-black hover:scale-90'
-            
-"
+          <div data-aos="fade-up"
+          data-aos-duration="2000" data-aos-easing="ease-in-sine" className="mt-10">
+          <NavLink
+          to={'/datascraping'}
+          className="p-3 md:p-4 mt-10 hover:cursor-pointer bg-primary w-40 sm:w-48 text-center font-plus-jakarta-sans text-white  rounded transition duration-500 ease-in-out transform hover:bg-white hover:text-black hover:scale-90'
+          "
           >
             Read More
-          </button>
+          </NavLink>
+          </div>
         </div>
         <div className="my-5 md:w-1/2 flex justify-center">
           <img

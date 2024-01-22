@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { TiArrowBack } from "react-icons/ti";
 import web from "../assets/web.gif";
@@ -13,6 +13,12 @@ import Marquee7 from "../assets/Marquee7.png";
 import Marquee8 from "../assets/Marquee8.jpg";
 
 const DataCollection = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <div className="flex flex-col items-center">
       <div className="container mx-auto my-10 w-full">

@@ -51,7 +51,7 @@ const Footer = () => {
           </p>
           <p className="mb-2">
           <Link
-        to='Work'
+        to='work'
         spy={true}
         smooth={true}
         offset={50}
@@ -65,7 +65,7 @@ const Footer = () => {
           </p>
           <p className="mb-2">
           <Link
-        to='Contact'
+        to='contact'
         spy={true}
         smooth={true}
         offset={50}

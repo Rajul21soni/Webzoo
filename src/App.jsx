@@ -6,6 +6,8 @@ import DataAnnotation from "./Components/DataAnnotation";
 import Loader from "./Components/Loader";
 import DataCollection from "./Components/DataCollection";
 import ContentModeration from "./Components/ContentModeration";
+import VisualInspection from "./Components/VisualInspection";
+import DataScraping from "./Components/DataScraping";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -37,6 +39,8 @@ const App = () => {
             <Route path="/dataannotation" element={<DataAnnotation />} />
             <Route path="/datacollection" element={<DataCollection />} />
             <Route path="/contentmoderation" element={<ContentModeration />} />
+            <Route path="/visualinspection" element={<VisualInspection />} />
+            <Route path="/datascraping" element={<DataScraping />} />
           </Routes>
           </>
         )}
