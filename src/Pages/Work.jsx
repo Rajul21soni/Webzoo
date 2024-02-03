@@ -279,7 +279,7 @@ const Work = () => {
           <img
             src={vi}
             alt="Visual Inspection"
-            className="max-w-full  rounded-3xl h-auto"
+            className="max-w-full rounded-3xl h-auto"
           />
         </div>
       </div>

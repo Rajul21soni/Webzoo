@@ -4,6 +4,7 @@ import { MdHealthAndSafety } from "react-icons/md";
 import { MdAgriculture } from "react-icons/md";
 import { GiRobotGolem } from "react-icons/gi";
 import { FaCarRear } from "react-icons/fa6";
+import { TypeAnimation } from "react-type-animation";
 import "./About.css";
 
 const About = () => {
@@ -220,17 +221,34 @@ const About = () => {
                   </div>
                 </div>
               ))}
-              <p
-                data-aos="fade-up"
-                data-aos-duration="500"
-                data-aos-easing="ease-in-sine"
-                className="p-3 md:p-4 mt-10 hover:cursor-pointer bg-primary w-40 sm:w-48 text-center font-plus-jakarta-sans text-white  rounded transition duration-500 ease-in-out transform hover:bg-white hover:text-black hover:scale-90'
-            
-"
-              >
-                And Many More..
-              </p>
             </div>
+            <div data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-sine" className="flex justify-center">
+              <h1 className="text-4xl text-center mt-20 text-white font-bold">
+                We also provide services on 
+                <br />
+                <span
+                  style={{
+                    fontFamily: "PT Sans, sans-serif",
+                    letterSpacing: "3px",
+                  }}
+                  className="mt-20 text-5xl text-primary"
+                >
+                  <TypeAnimation
+                    sequence={[
+                      "Retail",
+                      1000,
+                      "Finance",
+                      1000,
+                      "And many more...",
+                      1000,
+                    ]}
+                    repeat={Infinity}
+                  />
+                </span>
+              </h1>
+                </div>
           </div>
         </div>
       </div>
