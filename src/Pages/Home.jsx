@@ -58,8 +58,10 @@ const Home = () => {
         </Link>
         </div>
       </div>
+      
       <div data-aos="fade-left"
-          data-aos-duration="1000" className='w-full lg:flex lg:justify-center lg:w-1/2 hidden'>
+          data-aos-duration="1000"  className='w-full imgbox lg:flex lg:justify-center lg:w-1/2 hidden'>
+
         <img src={banner} alt='banner' className='w-[60%] h-[60%]' />
       </div>
     </div>

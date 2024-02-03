@@ -52,7 +52,7 @@ const ParticleComponent = () => {
             size: {
                 value: {
                     min: 1,
-                    max: 30,
+                    max: 10,
                 },
                 animation: {
                     enable: true,
